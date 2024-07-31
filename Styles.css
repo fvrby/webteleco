@@ -51,13 +51,18 @@ body {
 }
 
 .video-container {
-    margin: 20px 0;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
     border: 5px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.video-container iframe {
-    width: 560px;
-    height: 315px;
+.video-container video {
+    width: 100%;
+    height: auto;
 }
 
 .legend {
@@ -73,7 +78,6 @@ footer {
     text-align: center;
     font-size: 0.9rem;
 }
-
 
 .circle {
     position: absolute;
